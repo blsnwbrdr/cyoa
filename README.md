@@ -1,3 +1,3 @@
 # Choose Your Own Adventure
 
-This javascript produces a choose your own adventure story pulled from an array of objects. It scans the array for the correct object and pulls the image, text, and button content for each choice made. The script is completely scalable. As long as the objects in the array are written with a specific style, the script can generate an unlimited number of pages and choices. 
+This javascript produces a choose your own adventure story pulled from an array of objects in a JSON file. It scans the array for the correct object and pulls the image, text, and button content for each choice made. The script is completely scalable. As long as the objects in the array are written with a specific style, the script can generate an unlimited number of pages and choices. 
