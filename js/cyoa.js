@@ -1,8 +1,18 @@
 $(document).ready(function() {
-  'use strict';  
+  'use strict';
+  // PAGE SCROLLING FEATURE
+  
+  $('a.page-scroll').bind('click', function(event) {
+      var $anchor = $(this);
+      $('html, body').stop().animate({
+          scrollTop: ($($anchor.attr('href')).offset().top - 0)
+      }, 500, 'easeInOutExpo');
+      event.preventDefault();
+  });
+  
   // GET JSON FILE
   $.ajax({
-    url: "js/story.json",
+    url: "story.json",
     dataType: "text",
     success: function(data) {
       // PARSE JSON FILE
