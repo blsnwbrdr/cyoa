@@ -8,6 +8,11 @@ body {
   background: #000 url(http://www.script-tutorials.com/demos/360/images/stars.png) repeat top center;
   color: #0A0A0A;
 }
+a:focus,
+a:hover {
+  text-decoration: none;
+  outline: none;
+}
 .layer {
   background: transparent url(http://www.script-tutorials.com/demos/360/images/twinkling.png) repeat top center;
   z-index: 1;
