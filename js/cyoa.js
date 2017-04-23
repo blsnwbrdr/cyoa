@@ -1,7 +1,6 @@
 $(document).ready(function() {
   'use strict';
   // PAGE SCROLLING FEATURE
-  
   $('a.page-scroll').bind('click', function(event) {
       var $anchor = $(this);
       $('html, body').stop().animate({
@@ -9,7 +8,6 @@ $(document).ready(function() {
       }, 500, 'easeInOutExpo');
       event.preventDefault();
   });
-  
   // GET JSON FILE
   $.ajax({
     url: "story.json",
